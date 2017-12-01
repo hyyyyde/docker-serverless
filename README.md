@@ -19,9 +19,3 @@ docker build -t XXX/XXX:version .
 ```
 docker run --rm --name serverless -v `pwd`:/usr/local/src -it XXX/XX:version bash
 ```
-
-## remove
-
-```
-docker rm serverless
-```
