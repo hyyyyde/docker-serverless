@@ -17,7 +17,7 @@ docker build -t XXX/XXX:version .
 ## run
 
 ```
-docker run --rm --name serverless -v `pwd`:/usr/locac/src -it XXX/XX:version bash
+docker run --rm --name serverless -v `pwd`:/usr/local/src -it XXX/XX:version bash
 ```
 
 ## remove
